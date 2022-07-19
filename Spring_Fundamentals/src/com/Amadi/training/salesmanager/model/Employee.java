@@ -1,4 +1,4 @@
-package com.krishantha.training.salesmanager.model;
+package com.Amadi.training.salesmanager.model;
 
 public class Employee {
 	

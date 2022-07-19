@@ -1,8 +1,8 @@
 import java.util.List;
 
-import com.krishantha.training.salesmanager.model.Employee;
-import com.krishantha.training.salesmanager.service.EmployeeService;
-import com.krishantha.training.salesmanager.service.EmployeeServiceImpl;
+import com.Amadi.training.salesmanager.model.Employee;
+import com.Amadi.training.salesmanager.service.EmployeeService;
+import com.Amadi.training.salesmanager.service.EmployeeServiceImpl;
 
 public class Application {
 

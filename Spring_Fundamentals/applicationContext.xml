@@ -1,0 +1,4 @@
+<!---->
+<bean name="employeeRepository"
+  class="com.Amadi.training.salesmanager.repository.HibernateEmployeeRepos
+itoryImpl"/>

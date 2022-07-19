@@ -1,8 +1,9 @@
-package com.krishantha.training.salesmanager.repository;
+package com.Amadi.training.salesmanager.repository;
 import java.util.List;
-import java.util.ArrayList;
 
-import com.krishantha.training.salesmanager.model.Employee;
+import com.Amadi.training.salesmanager.model.Employee;
+
+import java.util.ArrayList;
 
 public class HibernateEmployeeRepositoryImpl implements EmployeeRepository {
 	

@@ -1,0 +1,18 @@
+server:
+  port: 8191
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/amadi27/spring-cloud-config-store.git
+          #go and search directories
+          search-paths:
+            -'*service'
+
+
+
+          #username: root
+          #password: 34445
+

@@ -106,8 +106,10 @@ public class Filter1 {
             for(int j = 0; j < this.filter.width; j++) {
                 if (this.data.data[this.filter.height - 1][j] != 0) {
                     if (this.filter.data[this.filter.height - 1][j] != 0) {
+
                         if (j-1 >= 0)
                             sum += this.data.data[this.filter.height - 1][j]/2;
+
                         if (j+1 < this.filter.width)
                             sum += this.data.data[this.filter.height - 1][j]/2;
                     } else {
